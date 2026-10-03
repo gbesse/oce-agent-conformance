@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://occ.example.com",
+  "adminKeyFile": "/secure/path/admin.key",
+  "restrictedKeyFile": "/secure/path/tenant-a.key",
+  "allowedNamespace": "ns_example",
+  "allowedAgent": "agt_example",
+  "foreignNamespace": "ns_other",
+  "foreignAgent": "agt_other",
+  "deploymentId": "dep_example",
+  "maxObservationAgeSeconds": 300,
+  "probeCommand": ["node", "./gateway-probe.js", "{nonce}"]
+}
